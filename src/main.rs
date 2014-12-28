@@ -81,7 +81,10 @@ static FRAGMENT_SRC: gfx::ShaderSource<'static> = shaders! {
   "
 };
 
+mod gosu;
+
 fn main() {
+  gosu::test();
   let glfw = glfw::init(glfw::FAIL_ON_ERRORS).unwrap();
 
   glfw.window_hint(glfw::WindowHint::ContextVersion(3, 2));
