@@ -1,6 +1,6 @@
 {
   "cmd": "cargo",
-  "args": [ "build" ],
+  "args": [ "build", "--verbose" ],
   "sh": true,
   "cwd": "{PROJECT_PATH}",
   "env": { }
