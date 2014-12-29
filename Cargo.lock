@@ -2,7 +2,7 @@
 name = "fuchur_beschaeftigung"
 version = "0.0.1"
 dependencies = [
- "gosu-rs 0.0.1 (git+file:///home/oliver/Projects/gosu-rs)",
+ "gosu-rs 0.0.1 (git+https://github.com/oli-obk/gosu-rs.git)",
 ]
 
 [[package]]
@@ -78,7 +78,7 @@ source = "git+https://github.com/servo/glfw?ref=cargo-3.0.4#765dace7e4125b87c764
 [[package]]
 name = "gosu-rs"
 version = "0.0.1"
-source = "git+file:///home/oliver/Projects/gosu-rs#5440989c9432525116dcc304f6ebf8b3c1137ccd"
+source = "git+https://github.com/oli-obk/gosu-rs.git#5440989c9432525116dcc304f6ebf8b3c1137ccd"
 dependencies = [
  "gfx 0.1.0 (git+http://github.com/gfx-rs/gfx-rs)",
  "glfw 0.0.1 (git+https://github.com/bjz/glfw-rs.git)",
